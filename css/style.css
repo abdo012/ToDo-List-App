@@ -232,6 +232,18 @@ body{
 
 /* --------Custome medaia----- */
 @media(max-width: 458px){
+    /* container */
+    .container{
+        width: 90%;
+    }
+    /*  */
+    .my-form .form-task-name{
+        width: 90%;
+    }
+    /*  */
+    .my-form .form-task-subject{
+        width: 90%;
+    }
     .output .task{
         display: block;
     }
