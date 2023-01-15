@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="test the SEO">
+        <!-- Normlize CSS File -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- Font Awesome File -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- Main Style Sheet File -->
+        <link rel="stylesheet" href="css/style.css">
+    <!-- Title -->
+    <title>To Do List App</title>
+</head>
+<body>
+    <div class="error">
+        donet leave input empty
+    </div>
+    <div class="add-message">
+        task add successful
+    </div>
+    <div class="container">
+        <form class="my-form">
+            <input type="text" class="form-task-name" placeholder="task name" autofocus>
+            <textarea class="form-task-subject" placeholder="task subject"></textarea>
+            <button class="add-btn">add
+                <input type="number" value="1" readonly class="tasks-num">
+            </button>
+        </form>
+        <div class="output">
+            <!-- task -->
+            <div class="task">
+                <div class="task-content">
+                    <h4 class="name">click to show task 
+                        <i class="icon fas fa-caret-down"></i>
+                    </h4>
+                    <p class="subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quae ad nesciunt itaque tenetur, expedita quasi velit harum reprehenderit recusandae impedit quaerat excepturi ea doloribus deserunt libero cumque architecto sunt.</p>
+                </div>
+                <div class="task-control">
+                    <button class="del">del</button>
+                    <button class="done">done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script JS File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
